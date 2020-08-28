@@ -2,9 +2,8 @@ const express = require('express');
 // cargar lobreria sockets
 const socketIO = require('socket.io')
 // servidor de node compatible con socket
-//const http = require('http')
-// si trabaja mos desde heroku
 const http = require('https')
+
 
 const path = require('path');
 
