@@ -13,3 +13,5 @@ npm install
 # instalar socket -> npm i socket.io
 
 # para subir a heroku es necesario el script start
+heroku git:remote -a sockets-app-udemy
+git push heroku master
