@@ -2,7 +2,7 @@ const express = require('express');
 // cargar lobreria sockets
 const socketIO = require('socket.io')
 // servidor de node compatible con socket
-const http = require('https')
+const http = require('http')
 
 
 const path = require('path');
